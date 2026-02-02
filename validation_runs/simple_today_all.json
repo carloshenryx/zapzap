@@ -1,0 +1,46 @@
+{
+  "tenant_id": "b842736e-a0da-4c60-b2a2-a1f53fdc57a1",
+  "template_id": "all",
+  "period": {
+    "period": "today",
+    "start": "2026-01-25T03:00:00.000Z",
+    "end": "2026-01-25T19:55:55.426Z"
+  },
+  "optional_fields_present": true,
+  "audit": {
+    "issues": {
+      "total": 0,
+      "missingCreatedAt": 0,
+      "invalidCreatedAt": 0,
+      "missingTemplateId": 0,
+      "ratingNull": 0,
+      "ratingOutOfExpectedRange": 0,
+      "customAnswersNotObject": 0,
+      "googleRedirectMissingFieldOrNull": 0
+    },
+    "examples": {
+      "missingCreatedAt": [],
+      "invalidCreatedAt": [],
+      "ratingNull": []
+    }
+  },
+  "computed": {
+    "thresholds": {
+      "bad": 2,
+      "good": 4
+    },
+    "kpis": {
+      "total_responses": 0,
+      "total_submissions": 0,
+      "avg_rating": 0,
+      "good_count": 0,
+      "neutral_count": 0,
+      "bad_count": 0,
+      "bad_identified_count": 0,
+      "google_redirect_count": 0
+    },
+    "trend": [],
+    "low_ratings": []
+  },
+  "api_comparison": null
+}

@@ -1,0 +1,108 @@
+{
+  "tenant_id": "b842736e-a0da-4c60-b2a2-a1f53fdc57a1",
+  "fetched": {
+    "responses": 38,
+    "templates": 3
+  },
+  "period": {
+    "selectedPeriod": "all",
+    "customStart": "",
+    "customEnd": "",
+    "periodDateMode": "dashboard"
+  },
+  "filters": {
+    "selectedTemplate": "all",
+    "dateStart": "",
+    "dateEnd": "",
+    "ratingMin": 0,
+    "ratingMax": 5,
+    "npsSegment": "all"
+  },
+  "audit": {
+    "issues": {
+      "total": 38,
+      "missingCreatedAtOrDate": 0,
+      "invalidDate": 0,
+      "missingTemplateId": 0,
+      "missingSource": 0,
+      "ratingNull": 30,
+      "ratingOutOfExpectedRange": 0,
+      "wouldRecommendMissing": 0,
+      "customAnswersNotObject": 0,
+      "createdAtVsCreatedDateMismatch": 0
+    },
+    "examples": {
+      "missingCreatedAtOrDate": [],
+      "invalidDate": [],
+      "missingTemplateId": [],
+      "missingSource": [],
+      "ratingNull": [
+        "a4527d92-27e0-4953-80c9-527cbb5ef8e8",
+        "ef45abc2-efc3-4baa-88dc-84b1c605a757",
+        "108b7363-63f2-4a42-a50e-729e6648f2ca",
+        "3a2b6966-db38-4e64-8659-56b8f284e7c3",
+        "d9537707-5489-41b9-976a-9659cc192bbc"
+      ],
+      "ratingOutOfExpectedRange": [],
+      "wouldRecommendMissing": [],
+      "customAnswersNotObject": [],
+      "createdAtVsCreatedDateMismatch": []
+    },
+    "sourceCounts": {
+      "qrcode": 7,
+      "clicktotem": 31
+    },
+    "ratingHistogram10": {
+      "0": 4,
+      "8": 2,
+      "10": 2
+    }
+  },
+  "dashboard_advanced_kpis": {
+    "totalResponses": 38,
+    "responsesWithRating": 8,
+    "avgOverall": 2.3,
+    "recommendRate": 97,
+    "fiveStarCount": 2,
+    "satisfactionBuckets": {
+      "rating5": 2,
+      "rating4": 2,
+      "rating3": 0,
+      "ratingLow": 4
+    },
+    "promoters": 2,
+    "passives": 2,
+    "detractors": 4,
+    "nps": -25,
+    "detractorsPercent": 50,
+    "promotersPercent": 25,
+    "surveyCountBySource": {
+      "total": 38,
+      "manual_whatsapp": 0,
+      "webhook": 0,
+      "totem": 0,
+      "qrcode": 7,
+      "clicktotem": 31
+    }
+  },
+  "templates": [
+    {
+      "id": "88dbd0ce-1e5f-4a3e-a4b1-2f2c5270fadb",
+      "name": "123",
+      "is_active": false,
+      "created_at": "2026-01-21T02:28:42.461455+00:00"
+    },
+    {
+      "id": "b50d008f-b154-4704-adc0-92280d21e8b1",
+      "name": "1",
+      "is_active": false,
+      "created_at": "2026-01-21T02:06:51.041023+00:00"
+    },
+    {
+      "id": "76f0e218-38f8-4737-99c6-af794cfd176b",
+      "name": "Template Teste",
+      "is_active": true,
+      "created_at": "2026-01-24T02:18:34.772825+00:00"
+    }
+  ]
+}

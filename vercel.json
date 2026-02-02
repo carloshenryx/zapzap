@@ -1,0 +1,28 @@
+{
+    "buildCommand": "npm run build",
+    "devCommand": "npm run dev",
+    "installCommand": "npm install",
+    "framework": "vite",
+    "routes": [
+        {
+            "src": "/api/(.*)",
+            "dest": "/api/[...path].ts?path=$1"
+        },
+        {
+            "src": "/functions/(.*)",
+            "dest": "/api/[...path].ts?path=webhooks/$1"
+        },
+        {
+            "handle": "filesystem"
+        },
+        {
+            "src": "/(.*)",
+            "dest": "/index.html"
+        }
+    ],
+    "functions": {
+        "api/[...path].ts": {
+            "maxDuration": 60
+        }
+    }
+}

@@ -1,0 +1,376 @@
+{
+  "tenant_id": "b842736e-a0da-4c60-b2a2-a1f53fdc57a1",
+  "fetched": {
+    "responses": 38,
+    "templates": 3
+  },
+  "period": {
+    "selectedPeriod": "all",
+    "customStart": "",
+    "customEnd": "",
+    "periodDateMode": "dashboard"
+  },
+  "filters": {
+    "selectedTemplate": "all",
+    "dateStart": "",
+    "dateEnd": "",
+    "ratingMin": "4",
+    "ratingMax": "5",
+    "npsSegment": "all"
+  },
+  "audit": {
+    "issues": {
+      "total": 38,
+      "missingCreatedAtOrDate": 0,
+      "invalidDate": 0,
+      "missingTemplateId": 0,
+      "missingSource": 0,
+      "ratingNull": 30,
+      "ratingOutOfExpectedRange": 0,
+      "wouldRecommendMissing": 0,
+      "customAnswersNotObject": 0,
+      "createdAtVsCreatedDateMismatch": 0
+    },
+    "examples": {
+      "missingCreatedAtOrDate": [],
+      "invalidDate": [],
+      "missingTemplateId": [],
+      "missingSource": [],
+      "ratingNull": [
+        "a4527d92-27e0-4953-80c9-527cbb5ef8e8",
+        "ef45abc2-efc3-4baa-88dc-84b1c605a757",
+        "108b7363-63f2-4a42-a50e-729e6648f2ca",
+        "3a2b6966-db38-4e64-8659-56b8f284e7c3",
+        "d9537707-5489-41b9-976a-9659cc192bbc"
+      ],
+      "ratingOutOfExpectedRange": [],
+      "wouldRecommendMissing": [],
+      "customAnswersNotObject": [],
+      "createdAtVsCreatedDateMismatch": []
+    },
+    "sourceCounts": {
+      "qrcode": 7,
+      "clicktotem": 31
+    },
+    "ratingHistogram10": {
+      "0": 4,
+      "8": 2,
+      "10": 2
+    }
+  },
+  "dashboard_advanced_kpis": {
+    "totalResponses": 34,
+    "responsesWithRating": 4,
+    "avgOverall": 4.5,
+    "recommendRate": 100,
+    "fiveStarCount": 2,
+    "satisfactionBuckets": {
+      "rating5": 2,
+      "rating4": 2,
+      "rating3": 0,
+      "ratingLow": 0
+    },
+    "promoters": 2,
+    "passives": 2,
+    "detractors": 0,
+    "nps": 50,
+    "detractorsPercent": 0,
+    "promotersPercent": 50,
+    "surveyCountBySource": {
+      "total": 34,
+      "manual_whatsapp": 0,
+      "webhook": 0,
+      "totem": 0,
+      "qrcode": 7,
+      "clicktotem": 27
+    }
+  },
+  "advanced_cards": {
+    "completionRate": {
+      "periodOnly": {
+        "available": true,
+        "activeTemplateId": "76f0e218-38f8-4737-99c6-af794cfd176b",
+        "totalQuestions": 4,
+        "totalResponses": 38,
+        "completed": 0,
+        "partial": 38,
+        "abandoned": 0,
+        "completionRate": 0
+      },
+      "filtered": {
+        "available": true,
+        "activeTemplateId": "76f0e218-38f8-4737-99c6-af794cfd176b",
+        "totalQuestions": 4,
+        "totalResponses": 34,
+        "completed": 0,
+        "partial": 34,
+        "abandoned": 0,
+        "completionRate": 0
+      }
+    },
+    "questionDistribution": {
+      "periodOnly": {
+        "available": true,
+        "activeTemplateId": "76f0e218-38f8-4737-99c6-af794cfd176b",
+        "questionId": "1769226687988",
+        "questionType": "rating",
+        "questionText": "4",
+        "totalAnswered": 2,
+        "topAnswers": [
+          {
+            "answer": "4",
+            "count": 2
+          }
+        ]
+      },
+      "filtered": {
+        "available": true,
+        "activeTemplateId": "76f0e218-38f8-4737-99c6-af794cfd176b",
+        "questionId": "1769226687988",
+        "questionType": "rating",
+        "questionText": "4",
+        "totalAnswered": 2,
+        "topAnswers": [
+          {
+            "answer": "4",
+            "count": 2
+          }
+        ]
+      }
+    },
+    "sentiment": {
+      "periodOnly": {
+        "totalComments": 4,
+        "positive": 1,
+        "neutral": 3,
+        "negative": 0,
+        "positivePercent": 25,
+        "neutralPercent": 75,
+        "negativePercent": 0
+      },
+      "filtered": {
+        "totalComments": 3,
+        "positive": 1,
+        "neutral": 2,
+        "negative": 0,
+        "positivePercent": 33,
+        "neutralPercent": 67,
+        "negativePercent": 0
+      }
+    },
+    "keywords": {
+      "periodOnly": {
+        "totalPositiveComments": 0,
+        "totalNegativeComments": 4,
+        "positiveTop": [],
+        "negativeTop": [
+          {
+            "word": "indico",
+            "count": 1
+          },
+          {
+            "word": "veronica",
+            "count": 1
+          }
+        ]
+      },
+      "filtered": {
+        "totalPositiveComments": 0,
+        "totalNegativeComments": 3,
+        "positiveTop": [],
+        "negativeTop": [
+          {
+            "word": "veronica",
+            "count": 1
+          }
+        ]
+      }
+    },
+    "questionBreakdown": {
+      "periodOnly": {
+        "available": true,
+        "activeTemplateId": "76f0e218-38f8-4737-99c6-af794cfd176b",
+        "questions": [
+          {
+            "questionId": "1769226687988",
+            "question": "4",
+            "type": "rating",
+            "totalResponses": 2,
+            "avg": 4,
+            "distribution": {
+              "1": 0,
+              "2": 0,
+              "3": 0,
+              "4": 2,
+              "5": 0,
+              "6": 0,
+              "7": 0,
+              "8": 0,
+              "9": 0,
+              "10": 0
+            }
+          },
+          {
+            "questionId": "1769221106668",
+            "question": "Você gostou?",
+            "type": "faces",
+            "totalResponses": 2
+          },
+          {
+            "questionId": "1769226621191",
+            "question": "teste",
+            "type": "stars",
+            "totalResponses": 0,
+            "avg": 0,
+            "distribution": {
+              "1": 0,
+              "2": 0,
+              "3": 0,
+              "4": 0,
+              "5": 0
+            }
+          },
+          {
+            "questionId": "1769226662678",
+            "question": "Você poderia nos avaliar no google?",
+            "type": "boolean",
+            "totalResponses": 2,
+            "yes": 2,
+            "no": 0
+          }
+        ]
+      },
+      "filtered": {
+        "available": true,
+        "activeTemplateId": "76f0e218-38f8-4737-99c6-af794cfd176b",
+        "questions": [
+          {
+            "questionId": "1769226687988",
+            "question": "4",
+            "type": "rating",
+            "totalResponses": 2,
+            "avg": 4,
+            "distribution": {
+              "1": 0,
+              "2": 0,
+              "3": 0,
+              "4": 2,
+              "5": 0,
+              "6": 0,
+              "7": 0,
+              "8": 0,
+              "9": 0,
+              "10": 0
+            }
+          },
+          {
+            "questionId": "1769221106668",
+            "question": "Você gostou?",
+            "type": "faces",
+            "totalResponses": 2
+          },
+          {
+            "questionId": "1769226621191",
+            "question": "teste",
+            "type": "stars",
+            "totalResponses": 0,
+            "avg": 0,
+            "distribution": {
+              "1": 0,
+              "2": 0,
+              "3": 0,
+              "4": 0,
+              "5": 0
+            }
+          },
+          {
+            "questionId": "1769226662678",
+            "question": "Você poderia nos avaliar no google?",
+            "type": "boolean",
+            "totalResponses": 2,
+            "yes": 2,
+            "no": 0
+          }
+        ]
+      }
+    },
+    "trend": {
+      "periodOnly": {
+        "day": [
+          {
+            "period": "22/01",
+            "nps": 0,
+            "csat": 0,
+            "total": 3
+          },
+          {
+            "period": "23/01",
+            "nps": -50,
+            "csat": 25,
+            "total": 31
+          },
+          {
+            "period": "24/01",
+            "nps": 0,
+            "csat": 75,
+            "total": 4
+          }
+        ],
+        "week": [
+          {
+            "period": "18/01",
+            "nps": -25,
+            "csat": 50,
+            "total": 38
+          }
+        ],
+        "month": [
+          {
+            "period": "jan/26",
+            "nps": -25,
+            "csat": 50,
+            "total": 38
+          }
+        ]
+      },
+      "filtered": {
+        "day": [
+          {
+            "period": "22/01",
+            "nps": 0,
+            "csat": 0,
+            "total": 3
+          },
+          {
+            "period": "23/01",
+            "nps": 100,
+            "csat": 100,
+            "total": 28
+          },
+          {
+            "period": "24/01",
+            "nps": 33.3,
+            "csat": 100,
+            "total": 3
+          }
+        ],
+        "week": [
+          {
+            "period": "18/01",
+            "nps": 50,
+            "csat": 100,
+            "total": 34
+          }
+        ],
+        "month": [
+          {
+            "period": "jan/26",
+            "nps": 50,
+            "csat": 100,
+            "total": 34
+          }
+        ]
+      }
+    }
+  }
+}

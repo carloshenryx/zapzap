@@ -1,0 +1,158 @@
+{
+  "tenant_id": "b842736e-a0da-4c60-b2a2-a1f53fdc57a1",
+  "template_id": "76f0e218-38f8-4737-99c6-af794cfd176b",
+  "period": {
+    "period": "month",
+    "start": "2026-01-01T03:00:00.000Z",
+    "end": "2026-01-25T19:55:28.883Z"
+  },
+  "optional_fields_present": true,
+  "audit": {
+    "issues": {
+      "total": 8,
+      "missingCreatedAt": 0,
+      "invalidCreatedAt": 0,
+      "missingTemplateId": 0,
+      "ratingNull": 0,
+      "ratingOutOfExpectedRange": 0,
+      "customAnswersNotObject": 0,
+      "googleRedirectMissingFieldOrNull": 0
+    },
+    "examples": {
+      "missingCreatedAt": [],
+      "invalidCreatedAt": [],
+      "ratingNull": []
+    }
+  },
+  "computed": {
+    "thresholds": {
+      "bad": 2,
+      "good": 4
+    },
+    "kpis": {
+      "total_responses": 8,
+      "total_submissions": 8,
+      "avg_rating": 2.25,
+      "good_count": 4,
+      "neutral_count": 0,
+      "bad_count": 4,
+      "bad_identified_count": 4,
+      "google_redirect_count": 0
+    },
+    "trend": [
+      {
+        "date": "2026-01-23",
+        "total": 4,
+        "total_submissions": 4,
+        "good": 1,
+        "neutral": 0,
+        "bad": 3,
+        "avg_rating": 1.25
+      },
+      {
+        "date": "2026-01-24",
+        "total": 4,
+        "total_submissions": 4,
+        "good": 3,
+        "neutral": 0,
+        "bad": 1,
+        "avg_rating": 3.25
+      }
+    ],
+    "low_ratings": [
+      {
+        "id": "529ea740-b2bb-45d5-af4f-06f36e92633f",
+        "tenant_id": "b842736e-a0da-4c60-b2a2-a1f53fdc57a1",
+        "template_id": "76f0e218-38f8-4737-99c6-af794cfd176b",
+        "created_at": "2026-01-24T03:24:28.609+00:00",
+        "overall_rating": 0,
+        "custom_answers": {
+          "1769221106668": 0
+        },
+        "would_recommend": false,
+        "comment": null,
+        "source": "clicktotem",
+        "is_anonymous": false,
+        "customer_name": "CARLOS HENRIQUE",
+        "customer_email": "matadorka@gmail.com",
+        "customer_phone": "62985515920",
+        "google_redirect_triggered": false,
+        "followup_status": null,
+        "followup_note": null,
+        "followup_updated_at": null,
+        "overall_score10": 0,
+        "overall_rating_normalized": 0
+      },
+      {
+        "id": "02c67f25-8d70-47af-ae35-4b31a44ba2ab",
+        "tenant_id": "b842736e-a0da-4c60-b2a2-a1f53fdc57a1",
+        "template_id": "76f0e218-38f8-4737-99c6-af794cfd176b",
+        "created_at": "2026-01-24T02:36:39.274+00:00",
+        "overall_rating": 0,
+        "custom_answers": {
+          "1769221106668": 0
+        },
+        "would_recommend": true,
+        "comment": null,
+        "source": "clicktotem",
+        "is_anonymous": false,
+        "customer_name": "Carlos Henrique",
+        "customer_email": "ext.remi@hotmail.com",
+        "customer_phone": "62985515920",
+        "google_redirect_triggered": false,
+        "followup_status": null,
+        "followup_note": null,
+        "followup_updated_at": null,
+        "overall_score10": 0,
+        "overall_rating_normalized": 0
+      },
+      {
+        "id": "207bcd89-8370-43d2-889e-f645e67c8636",
+        "tenant_id": "b842736e-a0da-4c60-b2a2-a1f53fdc57a1",
+        "template_id": "76f0e218-38f8-4737-99c6-af794cfd176b",
+        "created_at": "2026-01-24T02:20:26.973+00:00",
+        "overall_rating": 0,
+        "custom_answers": {
+          "1769221106668": 0
+        },
+        "would_recommend": true,
+        "comment": null,
+        "source": "clicktotem",
+        "is_anonymous": false,
+        "customer_name": "Carlos Henrique",
+        "customer_email": "ext.remi@hotmail.com",
+        "customer_phone": "62985515920",
+        "google_redirect_triggered": false,
+        "followup_status": null,
+        "followup_note": null,
+        "followup_updated_at": null,
+        "overall_score10": 0,
+        "overall_rating_normalized": 0
+      },
+      {
+        "id": "9da2a84a-cd91-437c-8180-31d5c3435845",
+        "tenant_id": "b842736e-a0da-4c60-b2a2-a1f53fdc57a1",
+        "template_id": "76f0e218-38f8-4737-99c6-af794cfd176b",
+        "created_at": "2026-01-24T02:19:41.4+00:00",
+        "overall_rating": 0,
+        "custom_answers": {
+          "1769221106668": 0
+        },
+        "would_recommend": true,
+        "comment": "Não indico",
+        "source": "clicktotem",
+        "is_anonymous": false,
+        "customer_name": "Carlos Henrique",
+        "customer_email": "ext.remi@hotmail.com",
+        "customer_phone": "62985515920",
+        "google_redirect_triggered": false,
+        "followup_status": null,
+        "followup_note": null,
+        "followup_updated_at": null,
+        "overall_score10": 0,
+        "overall_rating_normalized": 0
+      }
+    ]
+  },
+  "api_comparison": null
+}

@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --card: #ffffff;
+  --ring: #5423e7;
+  --input: #d1d1db;
+  --muted: #f7f7f8;
+  --accent: #ffc233;
+  --border: #d1d1db;
+  --radius: 0.5rem;
+  --shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --popover: #ffffff;
+  --primary: #5423e7;
+  --font-mono: "Jetbrainsmono", monospace;
+  --font-sans: "Inter", "Circularpro book", sans-serif;
+  --secondary: #f7f7f8;
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --background: #ffffff;
+  --foreground: #121217;
+  --shadow-2xl: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  --destructive: #f53d6b;
+  --card-foreground: #121217;
+  --muted-foreground: #6c6c89;
+  --accent-foreground: #121217;
+  --popover-foreground: #121217;
+  --primary-foreground: #ffffff;
+  --secondary-foreground: #6c6c89;
+  --destructive-foreground: #ffffff;
+}
+
+.dark {
+  --card: #191919;
+  --ring: #ffc233;
+  --input: #3f3f50;
+  --muted: #191919;
+  --accent: #ffc233;
+  --border: #3f3f50;
+  --popover: #191919;
+  --primary: #7047eb;
+  --secondary: #191919;
+  --background: #121217;
+  --foreground: #e8e8ed;
+  --destructive: #f53d6b;
+  --card-foreground: #e8e8ed;
+  --muted-foreground: #6c6c89;
+  --accent-foreground: #121217;
+  --popover-foreground: #e8e8ed;
+  --primary-foreground: #ffffff;
+  --secondary-foreground: #fff9;
+  --destructive-foreground: #ffffff;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-sans);
+  }
+}
+
+@layer utilities {
+  .shadow-custom {
+    box-shadow: var(--shadow);
+  }
+  .shadow-custom-sm {
+    box-shadow: var(--shadow-sm);
+  }
+  .shadow-custom-md {
+    box-shadow: var(--shadow-md);
+  }
+  .shadow-custom-lg {
+    box-shadow: var(--shadow-lg);
+  }
+  .shadow-custom-xl {
+    box-shadow: var(--shadow-xl);
+  }
+  .shadow-custom-2xl {
+    box-shadow: var(--shadow-2xl);
+  }
+}

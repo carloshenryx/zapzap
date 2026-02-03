@@ -12,6 +12,7 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "preview": "vite preview",
+    "preview:spa": "node ./scripts/preview-spa.mjs",
     "db:link": "npx supabase@latest link --project-ref akzggpoqchayrfywvjdx",
     "db:push": "npx supabase@latest db push",
     "db:pull": "npx supabase@latest db pull",

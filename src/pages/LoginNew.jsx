@@ -61,7 +61,7 @@ export default function LoginNew() {
             console.log('💾 Token saved to localStorage');
 
             // Redirect to dashboard
-            window.location.href = '/dashboard';
+            window.location.href = '/Dashboard';
 
         } catch (err) {
             console.error('❌ Exception:', err);

@@ -1,31 +1,12 @@
-import React, { useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
+import React from 'react';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { LogIn, ArrowRight } from 'lucide-react';
 import ParticleEffectHero from '@/components/ui/particle-effect-for-hero';
-import { isSupabaseAuthCallbackUrl } from '@/lib/supabaseAuthCallback';
-
-const PRELOGIN_DISABLED = true;
 
 export default function PreLogin() {
-  const navigate = useNavigate();
-
-  useEffect(() => {
-    if (!isSupabaseAuthCallbackUrl(window.location.href)) return;
-    const target = `/reset-password${window.location.search || ''}${window.location.hash || ''}`;
-    window.location.replace(target);
-  }, []);
-
-  useEffect(() => {
-    if (!PRELOGIN_DISABLED) return;
-    navigate('/login', { replace: true });
-  }, [navigate]);
-
-  if (PRELOGIN_DISABLED) return null;
-
   const handleLogin = () => {
-    window.location.href = '/login';
+    window.location.href = '/Login';
   };
 
   return (
